@@ -1,3 +1,4 @@
+import { CardProduct } from "../CardProduct"
 import { Heading } from "../Heading"
 import { destaques } from "./mocks"
 import { GridContainer, ProductContainer } from "./styled"

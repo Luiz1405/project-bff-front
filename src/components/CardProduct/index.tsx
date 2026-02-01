@@ -1,3 +1,4 @@
+import { Button } from "../Button";
 import type { Product } from "../Products/mocks";
 import { Card, CardBody, CardContent, CardFooter, CardImage } from "./styles";
 
@@ -6,7 +7,7 @@ interface CardProductInterface {
     product: Product
 }
 
-export const CardProduct = ({product}: CardProducInterface) => {
+export const CardProduct = ({product}: CardProductInterface) => {
     return (<Card>
         <CardImage src={product.image} alt={product.name} />
         <CardBody>
