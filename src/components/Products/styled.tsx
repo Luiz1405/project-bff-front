@@ -6,7 +6,7 @@ export const GridContainer = styled.div`
     grid-template-columns: repeat(1, 1fr);
 
     @media (min-width: 660px) {
-        grind-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
 
      @media (min-width: 1024px) {
@@ -16,6 +16,7 @@ export const GridContainer = styled.div`
 
 export const ProductContainer = styled.section`
     display: flex;
-    glex-direction: column;
+    flex-direction: column;
     gap: 32px;
+    padding: 2rem 0;
 `
